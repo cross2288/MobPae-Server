@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": "u-admin-001",
+      "email": "admin@mobpae.com",
+      "password": "admin123",
+      "name": "Admin",
+      "role": "admin",
+      "status": "active"
+    },
+    {
+      "id": "u-employer-001",
+      "email": "fintech@gmail.com",
+      "password": "tintech123",
+      "name": "Fin Tech PVT LTD",
+      "role": "employer",
+      "company_name": "Acme Corp",
+      "phone_number": "9876543210",
+      "city": "Ahmedabad",
+      "industry": "Sales",
+      "status": "active"
+    },
+    {
+      "id": "u-employer-002",
+      "email": "moneyview@gmail.com",
+      "password": "moneyview123",
+      "name": "Money View",
+      "role": "employer",
+      "company_name": "Money View",
+      "phone_number": "9876543210",
+      "city": "Mumbai",
+      "industry": "Fintech",
+      "status": "active"
+    },
+    {
+      "id": "u-employee-001",
+      "email": "jyotirmoy@gmail.com",
+      "password": "employee123",
+      "name": "Jyotirmoy Upadhaya",
+      "role": "employee",
+      "company_id": "u-employer-001",
+      "phone_number": "9876543211",
+      "monthly_salary": 50000,
+      "advance_limit_percentage": 20,
+      "department": "IT",
+      "status": "active"
+    },
+    {
+      "id": "u-employee-002",
+      "email": "luhit@gmail.com",
+      "password": "employee123",
+      "name": "Luhit Parajuli",
+      "role": "employee",
+      "company_id": "u-employer-001",
+      "phone_number": "9876543211",
+      "monthly_salary": 100000,
+      "advance_limit_percentage": 20,
+      "department": "IT",
+      "status": "pending"
+    }
+  ]
+}
